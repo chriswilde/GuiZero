@@ -5,7 +5,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(3, GPIO.OUT)
 GPIO.output(3, GPIO.LOW)
 
-def light_switch():
+def light_Switch():
 
   if GPIO.input(3):
     GPIO.output(3, GPIO.LOW)
