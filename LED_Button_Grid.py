@@ -35,3 +35,5 @@ button5 = PushButton(box, command=ledFive, text="LED 5", grid=[1,1])
 button6 = PushButton(box, command=ledSix, text="LED 6", grid=[1,2])
 
 app.display()
+
+
