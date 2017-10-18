@@ -3,13 +3,13 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(3, GPIO.OUT)
-GPIO.output(3, GPIO.LOW)
+GPIO.setup(2, GPIO.OUT)
+GPIO.output(2, GPIO.LOW)
 
 def ledOne():
-  GPIO.output(3, GPIO.HIGH)
+  GPIO.output(2, GPIO.HIGH)
   time.sleep(2)
-  GPIO.output(3, GPIO.LOW)
+  GPIO.output(2, GPIO.LOW)
   
 def ledTwo():
   
