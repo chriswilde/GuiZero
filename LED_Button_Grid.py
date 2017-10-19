@@ -1,4 +1,4 @@
-from guizero import App, PushButton
+from guizero import App, Text, Box, PushButton
 import RPi.GPIO as GPIO
 import time
 
@@ -12,17 +12,22 @@ def ledOne():
   GPIO.output(2, GPIO.LOW)
   
 def ledTwo():
+  return 0
   
 def ledThree():
+  return 0
   
 def ledFour():
+  return 0
   
 def ledFive():
+  return 0
   
 def ledSix():
+  return 0
   
     
-app = App(title="Lots of LED's", height=300, width=200, layout="grid")
+app = App(title="Lots of LED's", height=300, width=400, layout="grid")
 text = Text(app, text="There is a grid here", grid=[0,0])
 
 box = Box(app, layout="grid", grid=[0,1])
