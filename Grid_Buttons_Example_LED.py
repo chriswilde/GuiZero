@@ -11,8 +11,7 @@ def do_nothing():
   GPIO.output(2, GPIO.HIGH)
   time.sleep(2)
   GPIO.output(2, GPIO.LOW)
-  
-    
+     
 app = App(title="Keypad Example", height=100, width=90, layout="grid")
 
 button1 = PushButton(box, command=do_nothing, text="LED 1", grid=[0,0])
